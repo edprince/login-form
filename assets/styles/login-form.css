@@ -1,0 +1,64 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+body {
+  background-image: url('http://nature.besthdwalls.com/wp-content/uploads/2012/12/Wonderful-Autumn.jpg');
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+  padding-top: 10em;
+}
+
+.login-form {
+  max-width: 250px;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.login-form input {
+  border: 0;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 250px;
+  max-width: 250px;
+  border-bottom: solid 2px #E4E4E4;
+  box-sizing: border-box;
+}
+
+.login-form input:focus {
+  outline: 0;
+}
+
+#bottom {
+  border: 0;
+}
+
+.login-form button {
+  margin-top: 1em;
+  background-color: white;
+  border: solid 1px #E4E4E4;
+  padding: 1em;
+  cursor: pointer;
+  margin-left: 0;
+  margin-right: 0;
+  text-transform: uppercase;
+  width: 49%;
+}
