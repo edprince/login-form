@@ -61,10 +61,14 @@ body {
   margin-top: 1em;
   background-color: white;
   border: solid 1px #E4E4E4;
-  padding: 1em;
+  padding: .5em;
   cursor: pointer;
   margin-left: 0;
   margin-right: 0;
   text-transform: uppercase;
   width: 49%;
+}
+
+.login-form button:hover {
+  background-color: #67B6FF;
 }
