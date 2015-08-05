@@ -6,6 +6,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: white;
+  font-size: 2.5em;
 }
 
 .login-form p {
@@ -45,7 +46,7 @@ body {
   padding-bottom: 1em;
   width: 250px;
   max-width: 250px;
-  border-bottom: solid 2px #E4E4E4;
+  border-bottom: solid 1px #ECECEC;
   box-sizing: border-box;
 }
 
@@ -62,13 +63,27 @@ body {
   background-color: white;
   border: solid 1px #E4E4E4;
   padding: .5em;
+  border: 0;
   cursor: pointer;
   margin-left: 0;
   margin-right: 0;
   text-transform: uppercase;
   width: 49%;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
 }
 
 .login-form button:hover {
   background-color: #67B6FF;
+  color: white;
+  transition-duration: .3s;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
+}
+
+#signup {
+  background-color: #67B6FF;
+  color: white;
 }
