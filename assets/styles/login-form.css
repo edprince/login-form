@@ -86,4 +86,14 @@ body {
 #signup {
   background-color: #5882A9;
   color: white;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
+}
+
+#signup:hover {
+  background-color: ##36526D;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
 }
