@@ -7,8 +7,9 @@ h1 {
   color: white;
 }
 body {
-  background-image: url('http://nature.besthdwalls.com/wp-content/uploads/2012/12/Wonderful-Autumn.jpg');
+  //background-image: url('http://nature.besthdwalls.com/wp-content/uploads/2012/12/Wonderful-Autumn.jpg');
   background-repeat: no-repeat;
+  background-color: #7CA9CE;
   margin: 0;
   padding: 0;
   position: relative;
