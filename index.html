@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css' type='text/css' rel='stylesheet'>
     <link href='assets/styles/login-form.css' type='text/css' rel='stylesheet' />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <h1>Wave</h1>
-    <div class='login-form'>
-      <form action='check-login.php' method='post'>
-        <input id='top' type='text' name='username' placeholder='Username...'>
-        <br />
-        <input id='bottom' type='password' name='password' placeholder='Password...'>
-        <br />
-        <button type='submit'>login</button>
-        <button id='signup'href='#'>Sign Up</button>
-      </form>
-      <p>Free blogging engine</p>
+    <div class='row'>
+      <div class='small-10 medium-6 large-4 small-centered medium-centered large-centered columns'>
+        <div class='login-form'>
+          <form action='check-login.php' method='post'>
+            <input id='top' type='text' name='username' placeholder='Username...'>
+            <input id='bottom' type='password' name='password' placeholder='Password...'>
+            <br />
+            <button type='submit'>login</button>
+            <button id='signup'href='#'>Sign Up</button>
+          </form>
+          <p>Free blogging engine</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
