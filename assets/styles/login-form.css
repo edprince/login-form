@@ -39,13 +39,13 @@ body {
   margin: 0 auto;
 }
 
-#top {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+.top {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
 }
-#bottom {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+.bottom {
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
 }
 
 .login-form input {
@@ -64,7 +64,7 @@ body {
   outline: 0;
 }
 
-#bottom {
+.bottom {
   border: 0;
 }
 
@@ -108,3 +108,13 @@ body {
   -moz-transition-duration: .3s;
   -o-transition-duration: .3s;
 }
+
+
+.sign_up {
+  display: none;
+}
+
+#return_to_login {
+  cursor: pointer;
+}
+
