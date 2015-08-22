@@ -4,23 +4,41 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css' type='text/css' rel='stylesheet'>
     <link href='assets/styles/login-form.css' type='text/css' rel='stylesheet' />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <script src='https://code.jquery.com/jquery-2.1.4.min.js' type='text/javascript'></script>
+    <script src='assets/js/app.js' type='text/javascript'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
   </head>
   <body>
     <h1>Wave</h1>
     <div class='row'>
-      <div class='small-10 medium-6 large-4 small-centered medium-centered large-centered columns'>
+      <div class='small-10 medium-6 large-4 small-centered medium-centered large-centered columns login'>
         <div class='login-form'>
-          <form action='check-login.php' method='post'>
-            <input id='top' type='text' name='username' placeholder='Username...'>
-            <input id='bottom' type='password' name='password' placeholder='Password...'>
-            <br />
-            <button type='submit'>login</button>
-            <button id='signup'href='#'>Sign Up</button>
+          <form action='check-login.php' method='post' id='login'>
+            <input class='top' type='text' name='username' placeholder='Username...' required='required'>
+            <input class='bottom' type='password' name='password' placeholder='Password...' required='required'>
           </form>
+            <button form='login' type='submit'>login</button>
+            <button id='signup'>Sign Up</button>
           <p>Free blogging engine</p>
         </div>
       </div>
+
+
+      <div class='small-10 medium-6 large-4 small-centered medium-centered large-centered columns sign_up'>
+        <div class='login-form'>
+          <form action='sign-up.php' method='post' id='sign-up'>
+            <input class='top' type='text' name='username' placeholder='Username...' required='required'>
+            <input type='text' name='email' placeholder='Email Address' required='required'>
+            <input type='password' name='password' placeholder='Password...' required='required'>
+            <input class='bottom' type='password' name='re_password' placeholder='Re-type password...' required='required'>
+            <br />
+          </form>
+            <button form='sign-up' type='submit' id='signup'>Sign Up</button>
+          <p id='return_to_login'>← Back to login </p>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
